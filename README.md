@@ -49,6 +49,8 @@ The following mobs will have random size variations:
 
 While this makes your world more interesting, be aware that it might affect builds that rely on specific mob sizes. If you're building something that needs precise mob dimensions, you might want to disable this datapack for that world.
 
+If you mistakenly installed this and need to revert mobs to their initial size, you can run `/function mob_randomsizer:clear` and it will reset them to their default size.
+
 ## Installation
 
 1. Download this datapack
