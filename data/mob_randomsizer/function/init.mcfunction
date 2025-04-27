@@ -1,0 +1,1 @@
+scoreboard objectives add mob_randomsizer dummy mob_randomsizer

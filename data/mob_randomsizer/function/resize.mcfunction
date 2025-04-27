@@ -1,0 +1,3 @@
+execute as @e[type=#mob_randomsizer:resizable, tag=!mob_randomsizer_resized] store result score @s mob_randomsizer run random value 75..125
+execute as @e[type=#mob_randomsizer:resizable, tag=!mob_randomsizer_resized] store result entity @s attributes[{id: "minecraft:scale"}].base double 0.01 run scoreboard players get @s mob_randomsizer
+execute as @e[type=#mob_randomsizer:resizable] run tag @s add mob_randomsizer_resized
